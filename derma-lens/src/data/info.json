@@ -1,0 +1,90 @@
+[
+    { 
+        "name": "melanoma", 
+        "sitesToRefer": [
+            "https://my.clevelandclinic.org/health/diseases/14391-melanoma", 
+            "https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884", 
+            "https://en.wikipedia.org/wiki/Melanoma", 
+            "https://www.cancer.org/cancer/types/melanoma-skin-cancer/about/what-is-melanoma.html", 
+            "https://www.skincancer.org/skin-cancer-information/melanoma/"
+        ] 
+    },
+    { 
+        "name": "actinic keratosis", 
+        "sitesToRefer": [
+            "https://www.mayoclinic.org/diseases-conditions/actinic-keratosis/symptoms-causes/syc-20354969", 
+            "https://dermnetnz.org/topics/actinic-keratosis",
+            "https://www.hopkinsmedicine.org/health/conditions-and-diseases/actinic-keratosis",
+            "https://www.aad.org/public/diseases/skin-cancer/actinic-keratosis-treatment",
+            "https://www.aad.org/public/diseases/skin-cancer/actinic-keratosis-overview"
+        ] 
+    },
+    { 
+        "name": "basal cell carcinoma", 
+        "sitesToRefer": [
+            "https://my.clevelandclinic.org/health/diseases/4581-basal-cell-carcinoma", 
+            "https://en.wikipedia.org/wiki/Basal-cell_carcinoma",
+            "https://www.mayoclinic.org/diseases-conditions/basal-cell-carcinoma/diagnosis-treatment/drc-20354193",
+            "https://medlineplus.gov/ency/article/000824.htm",
+            "https://www.aad.org/public/diseases/skin-cancer/types/common/bcc/symptoms"
+        ] 
+    },
+    { 
+        "name": "nevus", 
+        "sitesToRefer": [
+            "https://www.medicinenet.com/image-collection/pigmented_nevi_picture/picture.htm", 
+            "https://www.healthline.com/health/nevus",
+            "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/nevus",
+            "https://www.aao.org/eye-health/diseases/what-is-nevus",
+            "https://medlineplus.gov/ency/article/001453.htm"
+        ] 
+    },
+    { 
+        "name": "dermatofibroma", 
+        "sitesToRefer": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK470538/", 
+            "https://www.medicalnewstoday.com/articles/318870",
+            "https://my.clevelandclinic.org/health/diseases/22668-cellular-dermatofibroma",
+            "https://www.bad.org.uk/pils/dermatofibroma-also-known-as-histiocytoma/",
+            "https://www.medicinenet.com/image-collection/dermatofibroma_picture/picture.htm"
+        ] 
+    },
+    { 
+        "name": "pigmented benign keratosis", 
+        "sitesToRefer": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4196312/#:~:text=Seborrheic%20keratoses%20are%20common%2C%20benign,the%20most%20widely%20accepted%20term."
+            
+        ] 
+    },
+    { 
+        "name": "seborrheic keratosis", 
+        "sitesToRefer": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK545285/", 
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4196312/",
+            "https://www.msdmanuals.com/en-in/professional/dermatologic-disorders/benign-skin-tumors,-growths,-and-vascular-lesions/seborrheic-keratoses",
+            "https://my.clevelandclinic.org/health/diseases/21721-seborrheic-keratosis",
+            "https://onlinelibrary.wiley.com/doi/10.1111/ddg.14984"
+        ] 
+    },
+    { 
+        "name": "squamous cell carcinoma", 
+        "sitesToRefer": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK441939/#:~:text=Squamous%20cell%20carcinoma%2C%20the%20second,to%20metastasize%20in%20the%20body.", 
+            "https://www.mayoclinic.org/diseases-conditions/squamous-cell-carcinoma/symptoms-causes/syc-20352480",
+            "https://www.aad.org/public/diseases/skin-cancer/types/common/scc",
+            "https://my.clevelandclinic.org/health/diseases/17480-squamous-cell-carcinoma",
+            "https://www.healthline.com/health/squamous-cell-skin-cancer"
+        ] 
+    },
+    { 
+        "name": "vascular lesion", 
+        "sitesToRefer": [
+            "https://www.yalemedicine.org/clinical-keywords/vascular-lesions#:~:text=Definition,or%20other%20underlying%20medical%20conditions.", 
+            "https://www.ssmhealth.com/cardinal-glennon/services/pediatric-plastic-reconstructive-surgery/hemangiomas",
+            "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/vascular-lesion",
+            "https://lakejacksonent.com/what-are-vascular-lesions-and-how-can-they-be-treated/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3848669/"
+        ] 
+    }
+   
+]

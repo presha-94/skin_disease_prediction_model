@@ -1,21 +1,15 @@
 #import the required libraries
 import pathlib
 import os
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
-
 from tensorflow import keras
 import tensorflow as tf
-
 from keras import Sequential
 from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.preprocessing.image import load_img
-
 from keras import layers
 
 # Defining the path for train and test images
@@ -170,7 +164,7 @@ model.add(layers.Dense(len(class_names),activation='softmax'))
 
 model.summary()
 
-# # vizualizing the model
+# vizualizing the model
 # plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
 
 #Compile the Model

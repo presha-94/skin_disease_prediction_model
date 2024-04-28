@@ -1,16 +1,9 @@
 from keras.models import load_model
 import os
-
 import pathlib
-
 from keras.preprocessing.image import load_img
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
-
-
 import tensorflow as tf
 
 model=load_model('model.h5')
@@ -25,7 +18,7 @@ class_names = image_dataset.class_names
 
 
 from glob import glob
-Test_image_path ="C:/Users/Prema/Downloads/model/download.jpeg"
+Test_image_path ="C:/Users/Prema/Downloads/model/images1.jpeg"
 Test_image = glob(Test_image_path)
 Test_image = load_img(Test_image[-1], target_size=(180, 180, 3))
 plt.imshow(Test_image)
@@ -33,8 +26,13 @@ plt.grid(False)
 
 img = np.expand_dims(Test_image, axis=0)
 pred = model.predict(img)
-pred = np.argmax(pred)
+print(pred)
+pred=np.argmax(pred)
+print(pred)
+
+# if pred not in range(0,8):
+#     print("Upload relevant image")
 pred_class = class_names[pred]
-print(  "Predictive Class "+pred_class )
+print(  "Predictive Class "+ pred_class )
 
 

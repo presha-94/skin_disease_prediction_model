@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: Jaden;
+      font-weight: 400;
+      src: url(../public/Jaden.ttf) format("ttf");
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jaden', sans-serif;
+  }
+  
